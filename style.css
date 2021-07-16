@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+.header-area{}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.menu{
+    background-color: #FB8F49;
+}
+.menu ul{
+    display: flex;
+    
+}
+.menu ul li{
+    list-style: none;
+   text-align: center;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: block;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.menu ul li a:hover {
+    color: #;
+}
+
+.section-area{}
+.full-width{
+    display: flex;
+    justify-content: space-between;
+
+}
+.half-width{
+    width: 45%;
+}
+.first-span{
+    color: #ff3f34;
+}
+.half-width h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.half-width h4{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(to right, #ffb8b8, #ff3f34);
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border-radius: 50px;
+    
+}
+.contant-area{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.half-width h1{
+    padding: 10px;
+}
+.half-width p{
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.Recipie-area{}
+.Recipie{
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+}
+.Recipie h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.Recipie p{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.Recipie h5{}
+
+.Recipies-iteam{
+    background-color: white;
+}
+
+.Racipies-title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+.Recipies{
+    width: 32%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
+    
+}
+.Recipies-photos{
+    width: 100%;
+}
+.Recipies h1{
+    margin-bottom: 20px;
+}
+.Recipies p{
+    margin-bottom: 10px;
+}
+
+.food-revios{
+   
+
+}
+.revios{
+    display: flex;
+    justify-content: space-between;
+    border-image: 7px solid orange;
+}
+.food{}
+.food h1{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.food h5{
+    font-size: 10px;
+    font-weight: 700;
+}
+
+
+
+
+.footer-area{
+    background-color: gray;
+    text-align: center;
+}
+.h4-1{
+    padding: 20px;
+}
+
